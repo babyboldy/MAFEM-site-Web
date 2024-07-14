@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles01.css">
+  <title>MAFEM-CI</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__bar">
+      <div class="nav__header">
+        <div class="logo nav__logo">
+          <img src="images/logoMAFEM-CI.jpg" alt="Logo MAFEM" class="logo">
+        </div>
+        <div class="nav__event__btn" id="event-btn">
+          <i class="ri-event-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="nous.html">À propos de nous</a></li>
+        <li><a href="evenement.html">Événements</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="header" id="accueil">
+    <div class="section__container header__container">
+      <h1 class="section__subheader">Bienvenue <br>Au Marathon des Femmes de Côte d'Ivoire</h1>
+      <p>Rejoignez-nous pour promouvoir le bien-être des femmes à travers le sport.</p>
+      <button class="btn" id="learn-more-btn">En savoir plus</button>
+    </div>
+  </header>
+
+  <footer class="footer">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="logo footer__logo">
+          <img src="images/logoMAFEM-CI.jpg" alt="Logo MAFEM" class="logo">
+          <span>MAFEM-CI</span>
+        </div>
+        <p class="section__description">
+            MAFEM-CI est une association de femmes dédiée à promouvoir le bien-être à travers le sport.
+            Nous organisons des marathons, des courses et d'autres événements pour encourager les femmes
+            à adopter un mode de vie sain et actif.
+        </p>
+        <ul class="footer__socials">
+            <li>
+              <a href="https://www.instagram.com/ma_femci" target="_blank"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/MafemciMarathon" target="_blank"><i class="ri-facebook-fill"></i></a>
+            </li>
+          </ul>
+  
+      </div>
+
+      <div class="footer__col">
+        <h4>Nous contacter</h4>
+        <ul class="footer__links">
+          <li>
+            <span><i class="ri-phone-fill"></i></span>
+            <div>
+              <h5>Numéro de téléphone</h5>
+              <p>00225 0709440187</p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-record-mail-line"></i></span>
+            <div>
+              <h5>Email</h5>
+              <p>mafem.ci24@gmail.com</p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-map-pin-2-fill"></i></span>
+            <div>
+              <h5>Location</h5>
+              <p>Côte d'Ivoire, Abidjan, Cocody</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      &copy; 2024 Marie Joseph Kossonou. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js" async></script>
+  <script>
+    document.getElementById('learn-more-btn').addEventListener('click', function() {
+      window.location.href = 'nous.html';
+    });
+  </script>
+
+</body>
+</html>
